@@ -1,0 +1,12 @@
+diff --git a/contrib/packmp3/Makefile b/contrib/packmp3/Makefile
+index e85959e3f740ebca67b918860b0c73529d31b924..324e453c260d0b43054d635b5f9fbe42d228694c 100644
+--- a/contrib/packmp3/Makefile
++++ b/contrib/packmp3/Makefile
+@@ -1,5 +1,5 @@
+ OBJECTS = huffmp3.o packmp3.o
+-CFLAGS  = -O3 -DUNIX -DBUILD_LIB -Wall -pedantic -funroll-loops -ffast-math -fsched-spec-load -fomit-frame-pointer
++CFLAGS  = -O3 -DUNIX -DBUILD_LIB -Wall -pedantic -funroll-loops -ffast-math -fomit-frame-pointer
+
+ .PHONY: all
+ all: $(OBJECTS)
+ 
